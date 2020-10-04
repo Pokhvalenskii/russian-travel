@@ -1,0 +1,4 @@
+.place__image-wrapper {
+  display: flex;
+  object-fit: cover;
+}
