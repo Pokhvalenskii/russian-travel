@@ -1,5 +1,4 @@
 .cover__image {
-  width: 1184px;
-  height: 740px;
+  width: 100%;
   background-image: url(/images/cover1.png);
 }

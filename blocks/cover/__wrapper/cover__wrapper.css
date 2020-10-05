@@ -1,0 +1,7 @@
+.cover__wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}

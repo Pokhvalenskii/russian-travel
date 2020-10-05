@@ -3,9 +3,34 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 1fr;
   grid-gap: 40px;
+  margin: 0 48px 80px;
   margin-bottom: 80px;
+  max-width: 984px;
 }
 
 .place:last-of-type{
   margin-bottom: 92px;
 }
+
+@media screen and (max-width: 770px) {
+  .place {
+    margin: 0 24px 80px;
+    grid-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    max-width: 320px;
+    grid-gap: 0px;
+    margin: auto;
+    margin-top: 48px;
+  }
+
+  .place:last-of-type{
+    margin-bottom: 64px;
+  }
+}
+

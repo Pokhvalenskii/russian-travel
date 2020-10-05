@@ -1,4 +1,11 @@
 .place__image-wrapper {
   display: flex;
-  object-fit: cover;
+  /* max-width: 472px;
+  max-height: 472px; */
+}
+
+@media screen and (max-width: 650px) {
+  .place__image-wrapper {
+    margin-bottom: 32px;
+  }
 }
