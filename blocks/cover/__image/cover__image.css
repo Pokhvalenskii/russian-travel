@@ -1,4 +1,7 @@
 .cover__image {
   width: 100%;
-  background-image: url(/images/cover1.png);
+}
+
+.cover__image:hover {
+  opacity: 0.3;
 }
