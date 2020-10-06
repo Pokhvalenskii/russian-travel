@@ -1,11 +1,6 @@
 .place__website {
   align-self: flex-end;
-}
-
-@media screen and (max-width: 770px) {
-  .place__website {
-    padding-bottom: 20px;
-  }
+  padding-bottom: 48px;
 }
 
 @media screen and (max-width: 650px) {
@@ -13,5 +8,6 @@
     height: 0px;
     visibility: hidden;
     margin: 0;
+    padding: 0;
   }
 }

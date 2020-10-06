@@ -1,11 +1,19 @@
-.place__image-wrapper {
-  display: flex;
-  /* max-width: 472px;
-  max-height: 472px; */
+ .place__image-wrapper {
+  /* display: flex; */
+  padding-right: 40px;
+
+}
+
+
+
+@media screen and (max-width: 770px) {
+  .place__image-wrapper {
+    padding-right: 32px;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .place__image-wrapper {
-    margin-bottom: 32px;
+    padding: 0;
   }
 }

@@ -2,5 +2,19 @@
   position: relative;
   display: flex;
   justify-content: center;
+  margin-top: 92px;
 }
+
+@media screen and (max-width: 770px) {
+  .cover {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cover {
+    margin-top: 64px;
+  }
+}
+
 

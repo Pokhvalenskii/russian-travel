@@ -1,14 +1,15 @@
 .lead {
   max-width: 984px;
-  /* width: 100%; */
+  width: calc(100% - 96px);
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  /* margin: 0 48px; */
   align-items: center;
 }
 
-@media screen and (max-width: 1150px) {
-  /* .lead {
-    margin: 0 48px;
-  } */
+@media screen and (max-width: 770px) {
+  .lead {
+    /* margin: 0; */
+    width: 100%;
+  }
 }
