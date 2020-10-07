@@ -3,8 +3,7 @@
   line-height: 22px;
   text-align: center;
   width: 360px;
-  margin: 0;
-  z-index: 2;
+  margin: auto;
 }
 
 @media screen and (max-width: 650px) {
