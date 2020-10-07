@@ -4,10 +4,7 @@
   line-height: 76px;
   width: 560px;
   text-align: center;
-  /* margin-top: 245px; */
-  /* margin-bottom: 32px; */
   margin: 0 auto 32px;
-  z-index: 2;
 }
 
 @media screen and (max-width: 650px) {
