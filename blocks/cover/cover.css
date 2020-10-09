@@ -4,7 +4,7 @@
   width: 100%;
   height: calc(100vw - 37.5vw);
   max-height: 740px;
-  object-fit: contain;
+  object-fit: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,6 +13,8 @@
   margin-top: 92px;
   text-decoration: none;
   color: #fff;
+  background-size: cover;
+  background-image: url(../../images/__background.png);
 }
 
 @media screen and (max-width: 770px) {
@@ -28,6 +30,6 @@
 }
 
 .cover:hover .cover__overlay {
-  opacity: .3;
+  opacity: .8;
 }
 

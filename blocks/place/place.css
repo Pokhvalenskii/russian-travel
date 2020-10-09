@@ -14,18 +14,11 @@
   .place {
     margin-bottom: 72px;
   }
-  .place:last-of-type {
-    margin-bottom: 0;
-  }
 }
 
 @media screen and (max-width: 650px) {
   .place {
     margin-bottom: 48px;
     grid-template-columns: 100%;
-  }
-
-  .place:last-of-type {
-    margin-bottom: 0;
   }
 }

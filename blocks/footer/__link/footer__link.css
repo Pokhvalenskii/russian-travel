@@ -19,7 +19,5 @@
   .footer__link:last-of-type {
     margin-bottom: 0;
   }
-  .footer__link:first-of-type {
-    margin-top: 64px;
-  }
+  
 }
