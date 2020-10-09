@@ -6,6 +6,10 @@
   display: block;
 }
 
+.place__text:last-of-type {
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 770px) {
   .place__text {
     font-size: 16px;

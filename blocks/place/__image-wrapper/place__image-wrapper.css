@@ -1,19 +1,5 @@
  .place__image-wrapper {
   /* display: flex; */
-  padding-right: 40px;
+  /* padding-right: 40px; */
 
-}
-
-
-
-@media screen and (max-width: 770px) {
-  .place__image-wrapper {
-    padding-right: 32px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .place__image-wrapper {
-    padding: 0;
-  }
 }

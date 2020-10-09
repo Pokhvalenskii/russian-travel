@@ -7,7 +7,11 @@
   /* color: green; */
 }
 
-
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin: 0 auto 56px;
+  }
+}
 
 @media screen and (max-width: 770px) {
   .lead__subtitle {
@@ -21,6 +25,6 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 56px;
+    margin: 0 auto 40px;
   }
 }
