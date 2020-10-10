@@ -18,16 +18,8 @@
 }
 
 @media screen and (max-width: 650px) {
-  .place__text {
-    margin-bottom: 24px;
-  }
-
   .place__text:first-of-type {
     margin-top: 32px;
-  }
-
-  .place__text:last-of-type {
-    margin-bottom: 0px;
   }
 }
 

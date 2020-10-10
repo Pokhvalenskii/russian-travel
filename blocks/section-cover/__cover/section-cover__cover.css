@@ -1,4 +1,4 @@
-.cover {
+.section-cover__cover {
   /* border: deeppink dashed 1px;  */
   max-width: 1184px;
   width: 100%;
@@ -14,22 +14,22 @@
   text-decoration: none;
   color: #fff;
   background-size: cover;
-  background-image: url(../../images/__background.png);
+  background-image: url(../../../images/__background.png);  
 }
 
 @media screen and (max-width: 770px) {
-  .cover {
+  .section-cover__cover {
     margin-top: 88px;
 
   }
 }
 @media screen and (max-width: 650px) {
-  .cover {
+  .section-cover__cover {
     margin-top: 64px;
   }
 }
 
-.cover:hover .cover__overlay {
+.section-cover__cover:hover .section-cover__overlay {
   opacity: .8;
 }
 
